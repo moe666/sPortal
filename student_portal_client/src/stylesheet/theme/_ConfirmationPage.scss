@@ -1,0 +1,86 @@
+.ConfirmationPageCont {
+  width: 100%;
+  height: 100vh;
+  //height: 636px;
+  background: #ffffff;
+  border-radius: 15px;
+  position: relative;
+
+  .ValidatingAndVerifiedCont {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 800px;
+    position: relative;
+    margin: 300px auto;
+    padding: 40px;
+    border-radius: 13px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .invalidToken {
+    color: #da9446;
+    margin: 50px auto;
+  }
+  .ValidatingCont {
+    color: #da9446;
+    margin: 50px auto;
+  }
+  .verifiedCont {
+    
+    margin: 30px auto;
+    h1{
+      color: #da9446;
+
+    }
+    p {
+      margin: 20px 0;
+      font-size: 28px;
+      color: #5c5c5c;
+    }
+  }
+  .ConfirmationNavigationBar {
+    height: 85px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .navigationBarSubCont {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1835px;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 0;
+    }
+    .label {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      align-self: center;
+    }
+    ul {
+      align-self: center;
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 20px;
+        align-self: center;
+        a {
+          text-decoration: none;
+          font-family: Ropa Sans, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 28px;
+        }
+      }
+    }
+  
+  }
+}

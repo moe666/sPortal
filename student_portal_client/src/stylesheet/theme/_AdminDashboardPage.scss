@@ -1,0 +1,112 @@
+.nav {
+  margin-top: 20px;
+
+  a {
+    font-size: 18px;
+  }
+}
+
+.admindashboard-cont {
+  background: rgb(255, 255, 255);
+  border: none;
+  .navigationBarUserPage {
+    height: 85px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .navigationBarSubCont {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1835px;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 0;
+    }
+    .label {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      align-self: center;
+    }
+    ul {
+      align-self: center;
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 20px;
+        align-self: center;
+        a {
+          text-decoration: none;
+          font-family: Ropa Sans, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .celled.table tr th {
+    font-size: 18px;
+    color: #393939;
+    height: 80px;
+  }
+  .center-block {
+    text-align: center;
+  }
+
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show {
+    color: #fff;
+    background-color: #ec7f37;
+    border: none;
+  }
+  .nav-link {
+    color: #969696;
+  }
+
+  .ui.celled {
+    width: 70%;
+    margin: 50px 15% auto;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    position: absolute;
+    overflow: auto;
+    block-size: 43px;
+  }
+  .ui.celled.table {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin-top: 50px;
+  }
+  .ui.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+  }
+  .ui.table td {
+    padding: 20px 0;
+    text-align: center;
+    color: #393939;
+  }
+
+  .ui.table thead th {
+    text-align: center;
+  }
+  .ui.secondary.button {
+    font-size: 13px;
+    width: 90px;
+  }
+  .ui.red.button {
+    font-size: 13px;
+    width: 90px;
+  }
+}

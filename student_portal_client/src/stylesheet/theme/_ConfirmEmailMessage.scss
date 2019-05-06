@@ -1,0 +1,75 @@
+.ConfirmEmailMessageCont {
+  width: 100%;
+  margin-top: 200px;
+  height: 100vh;
+  position: absolute;
+  z-index: 99;
+  //background: darkgrey;
+  overflow: hidden;
+  .navigationBarUserPage {
+    height: 85px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .navigationBarSubCont {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1835px;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 0;
+    }
+    .label {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      align-self: center;
+    }
+    ul {
+      align-self: center;
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 20px;
+        align-self: center;
+        a {
+          text-decoration: none;
+          font-family: Ropa Sans, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .ConfirmEmailMessage {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 800px;
+    position: relative;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 13px;
+    background: white;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1 {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      color: #ec7f37;
+    }
+    p {
+      font-size: 20px;
+      color: #393939;
+    }
+  }
+}

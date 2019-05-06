@@ -1,0 +1,23 @@
+@import "theme/TopNavigation";
+@import "theme/LoginModel";
+@import "theme/ForgotPasswordForm";
+@import "theme/UserDashboardPage";
+@import "theme/HomePage";
+@import "theme/UserCards";
+@import "theme/ConfirmEmailMessage";
+@import "theme/ConfirmationPage";
+@import "theme/RegistrationForm";
+@import "theme/UpdateUserProfileForm";
+@import "theme/AdminDashboardPage";
+@import "theme/Footer";
+@import "theme/ResetPasswordForm";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  a:any-link {
+    text-decoration: none;
+  }
+}

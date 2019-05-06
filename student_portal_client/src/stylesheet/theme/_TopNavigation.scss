@@ -1,0 +1,97 @@
+.adminDashboardNav {
+  background: #1d3b8b;
+}
+
+#dciLogo {
+  //border-radius: 50%;
+  //border: 2px solid rgb(255, 255, 255);
+  width: 180px;
+  height: 180px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+#gravatar-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.navigationBar {
+  width: 100%;
+  //max-width: 2000px;
+  //margin: auto;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(246, 245, 243, 1);
+  a {
+    align-self: center;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .label {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    align-self: center;
+    .labelD {
+      font-family: Ropa Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 26px;
+      color: #ffffff;
+    }
+    .labelC {
+      font-family: Ropa Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 48px;
+      color: #ffffff;
+    }
+    .labelI {
+      font-family: Ropa Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 32px;
+      color: #ffffff;
+    }
+  }
+
+  ul {
+    align-self: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-right: 20px;
+      align-self: center;
+      a {
+        text-decoration: none;
+        font-family: Ropa Sans, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 28px;
+        color: #ec7f37;
+      }
+    }
+  }
+}
